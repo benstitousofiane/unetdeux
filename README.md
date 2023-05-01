@@ -8,7 +8,7 @@ Le code que j'ai dévélopper seul est totallement libre de droit et de tout typ
 
 Disponible dans release pour Linux initialement et Windows
 
-# Fonctionnement et fonctionalités supplémentaire
+# Fonctionnement et fonctionalités supplémentaires
 
 Vous devrez entrer des nombre entier et essayer de comprendre comment posé les 1 et 2 sur la matrice en deux dimension pour pouvoir faire vos première parties.
 
