@@ -4,7 +4,11 @@ Jeux de morpion pour apprendre le fonctionnement du slicing sur des matrices 2D 
 Le code que j'ai dévélopper seul est totallement libre de droit et de tout type utilisation (même commercial).
 -> aucune mention necessaire, faites vous plaisir ;)
 
-#Fonctionnement et fonctionalités supplémentaire
+# Binaires
+
+Disponible dans release pour Linux initialement et Windows
+
+# Fonctionnement et fonctionalités supplémentaire
 
 Vous devrez entrer des nombre entier et essayer de comprendre comment posé les 1 et 2 sur la matrice en deux dimension pour pouvoir faire vos première parties.
 
