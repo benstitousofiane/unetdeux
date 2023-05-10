@@ -4,6 +4,8 @@ Jeux de morpion pour apprendre le fonctionnement du slicing sur des matrices 2D 
 Le code que j'ai dévélopper seul est totallement libre de droit et de tout type utilisation (même commercial).
 -> aucune mention necessaire, faites vous plaisir ;)
 
+Correctif binetôt disponible : faire en sorte que l'application ne plante pas lorsque la partie se termine quand on lance via une fenêtre et non sur un terminale.
+
 # Binaires
 
 Disponible dans release pour Linux initialement et Windows
