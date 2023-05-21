@@ -124,6 +124,12 @@ int main(void){
     printf("P1 : %d\n", isPlayer1Won);
     printf("P2 : %d\n", isPlayer2Won);
     */
+   
+    // a vérifier !
+    int quitProcess;
+    scanf("Tapez '1' pour quitter le jeu !", &quitProcess);
+    exit(0);
+    // a vérifier !
     return 0;
 }
 // -----------------
