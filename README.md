@@ -4,7 +4,9 @@ Jeux de morpion pour apprendre le fonctionnement du slicing sur des matrices 2D 
 Le code que j'ai dévélopper seul est totallement libre de droit et de tout type utilisation (même commercial).
 -> aucune mention necessaire, faites vous plaisir ;)
 
-Correctif binetôt disponible : faire en sorte que l'application ne plante pas lorsque la partie se termine quand on lance via une fenêtre et non sur un terminale.
+Correctif disponible : faire en sorte que l'application ne plante pas lorsque la partie se termine quand on lance via une fenêtre et non sur un terminale.
+Sera compiler bientôt !
+pour l'instant vous pouvez le compiler et executer vous même, peu contenir des bugs !
 
 # Binaires
 
@@ -19,6 +21,7 @@ tapez "quit" à un des moment de la partie pour quitter sans échec le programme
 # Compiler vous-même :
 pour compiler le code et y faire votre propore programme personalisé il vous faudra d'abord clone le repo avec git ou gh :
 (ici nous le ferons avec git)
+
 
 ```sh
 git clone https://github.com/benstitousofiane/unetdeux.git
