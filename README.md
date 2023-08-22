@@ -1,4 +1,4 @@
-# unetdeux
+# unetdeux⭕
 Jeux de morpion pour apprendre le fonctionnement du slicing sur des matrices 2D en langage C
 
 Le code que j'ai dévélopper seul est totallement libre de droit et de tout type utilisation (même commercial).
