@@ -22,7 +22,7 @@ tapez "quit" à un des moment de la partie pour quitter sans échec le programme
 pour compiler le code et y faire votre propore programme personalisé il vous faudra d'abord clone le repo avec git ou gh :
 (ici nous le ferons avec git)
 
-# Compiler GNU/Linux
+# Compiler sous GNU/Linux :
 
 ```sh
 git clone https://github.com/benstitousofiane/unetdeux.git
@@ -52,7 +52,7 @@ i686-w64-mingw32-gcc -o nomDeVotreChoix.exe unetdeux.c
 x86_64-w64-mingw32-gcc -o nomDeVotreChoix.exe unetdeux.c
 ```
 
-# Sous windows :
+# Compiler sous Windows :
 
 Installer d'abord le compilateur portable C de Fabrice Bellard : https://bellard.org/tcc/
 
