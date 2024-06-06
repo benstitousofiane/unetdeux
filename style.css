@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0c0c0c;
+    color: #b4b4b4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #151515;
+    text-align: center;
+    padding: 10px;
+}
+header a{
+    color:  #b4b4b4;
+    text-decoration: none;
+}
+
+main{
+    margin: 50px;
+}
+
+main h1{
+    background-color: #151515;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div#image{
+    margin-top: 15px;
+    text-align: center;
+}
+img{
+    width: 600px;
+}
+
+p.console{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #151515;
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+}

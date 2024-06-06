@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unetdeux</title>
+</head>
+<body>
+    <header><a href="../"><h1>BSA / unetdeux⭕</h1></a></header>
+    <div id="image">
+        <img src="img/unetdeux.png" alt="unetdeux image">
+    </div>
+    <main>
+        <h2>L'objectif du jeu est d'apprendre à manipuler des indices de matrices.</h2><br>
+        <h1>Comment jouer ?</h1><br>
+        <h2>
+            Placer avec des coordonnées en colonne et en ligne des point "1" ou "2" <br>
+            Pour gagner c'est les même règle que le morpion.
+        </h2><br>
+        <h1>Comment le compiler et l'executer</h1>
+        <h2>Sous Linux :</h2>
+        <p>Installez git et gcc avec votre gestionnaire de paquet</p>
+        <p>Clonez le repo unetdeux :</p>
+        <p class="console">git clone https://github.com/benstitousofiane/unetdeux</p> <br>
+        <p>Compilez le avec gcc :</p>
+        <p class="console">cd unetdeux</p><br>
+        <p class="console">gcc unetdeux.c -o unetdeux.bin</p><br>
+        <p>Lancer le binaire :</p>
+        <p class="console">./unetedeux.bin</p><br>
+        <h2>Sous Windows :</h2>
+        <p>Installez <a href="https://bellard.org/tcc/" target="_blank">TCC</a> de fabrice bellard</p>
+        <p>Glissez le fichier unetdeux.c dans le dossier tcc</p>
+        <p>Puis compilez le :</p>
+        <p class="console">tcc.exe unetdeux.c -o unetdeux.exe</p><br>
+        <p>Et executer le :</p>
+        <p class="console">unetdeux.exe</p><br>
+        <h2>Sous macOS</h2>
+        <p>Installez Xcode, ça installera automatiquement git et gcc</p>
+        <p>Puis suivez les même étapes que la compilation sous GNU/Linux.</p>
+        <h1>Commandes</h1>
+        <h2>quitter le jeu</h2>
+        <p>Tapez "quit"</p>
+        <p class="console">quit</p>
+    </main>
+</body>
+</html>
