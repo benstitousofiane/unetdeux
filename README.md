@@ -10,11 +10,11 @@ Le code que j'ai dévélopper seul est totallement libre de droit et de tout typ
 
 # Binaires
 
-Disponible dans release pour Linux initialement et Windows
+Compilez le vous même
 
 # Fonctionnement et fonctionalités supplémentaires
 
-Vous devrez entrer des nombre entier et essayer de comprendre comment posé les 1 et 2 sur la matrice en deux dimension pour pouvoir faire vos première parties.
+Vous devrez entrer des nombre entier et essayer de comprendre comment posé les 1 et 2 sur la matrice à deux dimensions pour pouvoir faire vos première parties.
 
 tapez "quit" à un des moment de la partie pour quitter sans échec le programme, autrement si vous êtes un ou une professionnelle vous faites "CTRL + C".
 
@@ -22,6 +22,7 @@ tapez "quit" à un des moment de la partie pour quitter sans échec le programme
 pour compiler le code et y faire votre propore programme personalisé il vous faudra d'abord clone le repo avec git ou gh :
 (ici nous le ferons avec git)
 
+# Compiler GNU/Linux
 
 ```sh
 git clone https://github.com/benstitousofiane/unetdeux.git
@@ -51,7 +52,16 @@ i686-w64-mingw32-gcc -o nomDeVotreChoix.exe unetdeux.c
 x86_64-w64-mingw32-gcc -o nomDeVotreChoix.exe unetdeux.c
 ```
 
-Même si je suis en possession d'un macintosh, je ne déliverai pour le moment aucun executable pour mac.
-vous pourrez faire votre propre executable en le compilant vous-même avec gcc en l'installant via X-Code.
+# Sous windows :
+
+Installer d'abord le compilateur portable C de Fabrice Bellard : https://bellard.org/tcc/
+
+Puis compilez le cous windows en mettant le fichier C sous le même dossier que le dossier TCC
+
+```sh
+tcc.exe unetdeux.c -o nomDeVotreChoix.exe
+```
+
+Pour compliler sous MacOS vous devez installer Xcode qui installera automatiquement git et gcc.
 
 Benstitou Sofiane.
